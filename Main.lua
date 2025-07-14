@@ -1,9 +1,5 @@
-if not _G.Mode then
-    _G.Mode = "Normal"
-end
 if _G.Mode == "BringPet" then
-  
-elseif _G.Mode == "Normal" then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Alstra-Team/AlstraHub/refs/heads/main/BringPet.lua", true))()
 else
-    warn("..." .. tostring(_G.Mode))
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Alstra-Team/AlstraHub/refs/heads/main/Gag.lua", true))()
 end
